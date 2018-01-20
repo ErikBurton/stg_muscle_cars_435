@@ -11,37 +11,37 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :year %>
-    <%= form.number_field :year, id: :car_year %>
+    <%= form.number_field :year, id: :car_year, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :make %>
-    <%= form.text_field :make, id: :car_make %>
+    <%= form.text_field :make, id: :car_make, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :model %>
-    <%= form.text_field :model, id: :car_model %>
+    <%= form.text_field :model, id: :car_model, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :option %>
-    <%= form.text_field :option, id: :car_option %>
+    <%= form.text_field :option, id: :car_option, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :scale %>
-    <%= form.text_field :scale, id: :car_scale %>
+    <%= form.text_field :scale, id: :car_scale, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :image_url %>
-    <%= form.text_field :image_url, id: :car_image_url %>
+    <%= form.text_field :image_url, id: :car_image_url, class: "form-control" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit :"Create Car", class: 'btn btn-primary' %>
   </div>
 <% end %>
