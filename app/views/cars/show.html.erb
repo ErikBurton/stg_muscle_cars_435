@@ -1,4 +1,34 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Year:</strong>
+  <%= @car.year %>
+</p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @car.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @car.model %>
+</p>
+
+<p>
+  <strong>Option:</strong>
+  <%= @car.option %>
+</p>
+
+<p>
+  <strong>Scale:</strong>
+  <%= @car.scale %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @car.image_url %>
+</p>
+
 <%= link_to 'Edit', edit_car_path(@car) %> |
 <%= link_to 'Back', cars_path %>
