@@ -14,7 +14,7 @@
 <body>
   <header class="navbar navbar-fixed-top navbar-inverse">
      <div class="container">
-       <%= link_to "SMC435", '#', id: "logo" %>
+       <%= link_to "SGMC435", '#', id: "logo" %>
        <nav>
          <ul class="nav navbar-nav navbar-right">
            <li><%= link_to "Home",   '#' %></li>
@@ -26,6 +26,18 @@
    </header>
    <div class="container">
     <%= yield %>
+    <footer class="footer">
+  <small>
+    @copy 2018 St. George Muscle Cars 435
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to "News",   '#' %></li>
+      <li><%= link_to "Blog", '#' %></li>
+      <li><a href="http://news.railstutorial.org/">News</a></li>
+    </ul>
+  </nav>
+</footer>
   </div>
 </body>
 </html>
