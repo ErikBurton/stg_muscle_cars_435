@@ -1,15 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is place or "Showroom" where I can virtually display my collection of diecast Muscle Cars. Ranging in scale from 1:64th to 1:18th.
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby v 5.1.4
 
-* System dependencies
+* Rails v 2.3.1
 
-* Configuration
+* Bootstrap
 
 * Database creation
 
