@@ -10,6 +10,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 gem 'bower-rails'
 gem 'will_paginate-bootstrap'
+gem 'devise'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
